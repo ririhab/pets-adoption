@@ -57,8 +57,7 @@ Features:
     -Global background image
     -Custom CSS for cards, navbar, form container
     -Smooth page scrolling
-
-
+    
 
 Technologies Used:
     -ReactJS
