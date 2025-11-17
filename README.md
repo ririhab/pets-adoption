@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+Pets Adoption – React Checkpoint Project
+This project is part of the React Checkpoint, where the goal is to create a small React application using React-Bootstrap, components, props, forms, and proper structuring.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Requirements Covered:
+    -Installed NodeJS 
+    -Created project using:
+        npx create-react-app pets-adoption
+    -Cleaned /src folder except index.js and reportWebVitals.js
+    -Created App.js and imported required modules
+    -Installed & used React-Bootstrap correctly
+    -Used a Navbar, Heading, and Cards inside React
+    -Created a Form (as required)
+    -Used components, props, defaultProps, and map()
+    -Added comments in the code
+    -Applied custom styling + hover effects
+    -Used background image
+    -Navbar scroll links working (#cardpets, #form)
+    -Mobile responsive
 
-## Available Scripts
+Project Structure
+    src/
+     ├─ App.js
+     ├─ index.js
+     ├─ pets.js
+     ├─ card.js
+     ├─ petlist.js
+     ├─ navbar.js
+     └─ form.js
 
-In the project directory, you can run:
 
-### `npm start`
+Features:
+-Display a list of 9 pets
+    Each pet includes:
+        -Name
+        -Type (Dog, Cat, Bird, Rabbit, Turtle)
+        -Age
+        -Description
+        -Image
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Interactive Cards
+    -React-Bootstrap Card component
+    -Hover animation (scale and shadow)
+    -“Adopt!” button scrolls to the form section
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-Adoption Form
+    -Styled form with background transparency
+    -Select menu dynamically filled from pets.js using .map()
+    -Bootstrap elements
 
-### `npm test`
+-Navbar
+    -Sticky on top
+    Custom background color
+    -Smooth-scroll to sections
+    -Hover effect on links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Styling
+    -Global background image
+    -Custom CSS for cards, navbar, form container
+    -Smooth page scrolling
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Technologies Used:
+    -ReactJS
+    -React-Bootstrap
+    -JavaScript ES6
+    -CSS
+    -Create-React-App
